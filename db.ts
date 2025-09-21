@@ -13,12 +13,7 @@ import {
   Menu,
   X,
 } from "lucide-react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { useState } from "react"
-import { cn } from "@/lib/utils"
-import { useAppDispatch, useAppSelector } from "@/store/hooks"
-import { logout } from "@/store/slices/authSlice"
+
 //other comm
 const navigation = [
   {
